@@ -5,7 +5,7 @@ require("dotenv").config();
 const cors = require("cors");
 const rateLimit = require("express-rate-limit");
 const dbURI = process.env.dbURI;
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 4002;
 const app = express();
 const testRoutes = require("./routers/test");
 
